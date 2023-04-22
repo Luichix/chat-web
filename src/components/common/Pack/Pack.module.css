@@ -1,0 +1,43 @@
+.pack {
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.transparent-light {
+  background-color: var(--color-base-transparent);
+  color: var(--color-gray-500);
+}
+
+.transparent-dark {
+  background-color: var(--color-base-transparent);
+  color: var(--color-base-white);
+}
+
+.base-light {
+  background-color: var(--color-base-white);
+  color: var(--color-gray-500);
+}
+
+.base-dark {
+  background-color: var(--color-blue-gray-800);
+  color: var(--color-base-white);
+}
+
+.primary-light {
+  background-color: var(--color-primary);
+  color: var(--color-gray-500);
+}
+.primary-dark {
+  background-color: var(--color-blue-gray-700);
+  color: var(--color-base-white);
+}
+
+.secondary-light {
+  background-color: var(--color-base-white);
+  color: var(--color-gray-500);
+}
+.secondary-dark {
+  background-color: var(--color-blue-gray-700);
+  color: var(--color-base-white);
+}

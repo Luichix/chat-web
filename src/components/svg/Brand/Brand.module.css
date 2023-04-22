@@ -1,0 +1,140 @@
+.brand {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.principal {
+  grid-column: 1/ 3;
+  grid-row: 1 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+  box-sizing: border-box;
+  animation: scalated 10s linear infinite;
+  animation-duration: 10s;
+  position: relative;
+  z-index: 100;
+  /* outline: auto; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  box-sizing: border-box;
+}
+
+.social1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  grid-column: 2/ 3;
+  grid-row: 1 / 2;
+}
+.social2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  grid-column: 3/ 4;
+  grid-row: 2 / 3;
+}
+
+.b4 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 1s;
+}
+.b2 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 1.5s;
+}
+.b9 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 2s;
+}
+.b7 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 2.5s;
+}
+.b12 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 3s;
+}
+.b1 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 3.5s;
+}
+.b8 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 4s;
+}
+.b0 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 4.5s;
+}
+.b11 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 5s;
+}
+.b3 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 5.5s;
+}
+.b10 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 6s;
+}
+.b6 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 6.5s;
+}
+.b5 {
+  opacity: 0;
+  animation: move 5s linear infinite;
+  animation-duration: 7s;
+}
+
+@keyframes scalated {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 150%) scale(0.5);
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100%, -100%) scale(0.75);
+    opacity: 0;
+  }
+}
