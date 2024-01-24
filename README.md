@@ -8,7 +8,7 @@ Go Digital is a web application designed for users to manage their chatbots. The
 
 [Explore a demo of Chatbot Platform here.](https://godigit-app.web.app/)  
 
-![Chatbot Platform](01.png)
+![Chatbot Platform](public/01.png)
 
 ## Technologies Used ⚙️
 
